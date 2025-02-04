@@ -1,4 +1,4 @@
-# VSCode-Prettier-settings
+# VSCode Settings
 ## .vscode/extensions.json
 ``` json
 {
@@ -27,5 +27,17 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   }
+}
+```
+# Prettier Settings
+## .prettierrc.json
+``` json
+{
+  "printWidth": 120,
+  "tabWidth": 4,
+  "useTabs": true,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "semi": false
 }
 ```
