@@ -1,4 +1,10 @@
 # VSCode-Prettier-settings
+## .vscode/extensions.json
+``` json
+{
+  "recommendations": ["shopify.theme-check-vscode", "esbenp.prettier-vscode"]
+}
+```
 ## .vscode/settings.json
 ``` json
 {
