@@ -26,7 +26,7 @@
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode",
     "editor.formatOnSave": true,
@@ -44,6 +44,16 @@
   "useTabs": true,
   "trailingComma": "none",
   "arrowParens": "avoid",
-  "semi": false
+  "semi": false,
+  /* shopify theme */
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "*.liquid",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }
 ```
