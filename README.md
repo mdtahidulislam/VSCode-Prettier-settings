@@ -27,6 +27,12 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   }
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "themeCheck.checkOnSave": true
 }
 ```
 # Prettier Settings
