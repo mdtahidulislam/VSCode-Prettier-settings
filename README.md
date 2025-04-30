@@ -25,7 +25,8 @@
     "editor.formatOnPaste": true
   },
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "liquid": "html"
   },
   "[liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode",
